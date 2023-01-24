@@ -28,7 +28,8 @@
       "@flight-workspace/booking/domain": ["libs/booking/domain/src/index.ts"],
       "@flight-workspace/booking/feature-manage": [
         "libs/booking/feature-manage/src/index.ts"
-      ]
+      ],
+      "@flight-workspace/passenger-api": ["libs/passenger-api/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
