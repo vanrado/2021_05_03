@@ -1018,26 +1018,26 @@
         }
       }
     },
-    "passenger-api": {
+    "passenger-lib": {
       "projectType": "library",
-      "root": "libs/passenger-api",
-      "sourceRoot": "libs/passenger-api/src",
+      "root": "libs/passenger-lib",
+      "sourceRoot": "libs/passenger-lib/src",
       "prefix": "flight-workspace",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
             "lintFilePatterns": [
-              "libs/passenger-api/src/**/*.ts",
-              "libs/passenger-api/src/**/*.html"
+              "libs/passenger-lib/src/**/*.ts",
+              "libs/passenger-lib/src/**/*.html"
             ]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/passenger-api"],
+          "outputs": ["coverage/libs/passenger-lib"],
           "options": {
-            "jestConfig": "libs/passenger-api/jest.config.js",
+            "jestConfig": "libs/passenger-lib/jest.config.js",
             "passWithNoTests": true
           }
         }

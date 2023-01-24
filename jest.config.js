@@ -14,6 +14,6 @@ module.exports = {
     '<rootDir>/libs/booking/domain',
     '<rootDir>/apps/booking',
     '<rootDir>/libs/booking/feature-manage',
-    '<rootDir>/libs/passenger-api',
+    '<rootDir>/libs/passenger-lib',
   ],
 };

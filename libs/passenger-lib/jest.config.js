@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'passenger-api',
+  displayName: 'passenger-lib',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -14,7 +14,7 @@ module.exports = {
       },
     },
   },
-  coverageDirectory: '../../coverage/libs/passenger-api',
+  coverageDirectory: '../../coverage/libs/passenger-lib',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',
