@@ -1,6 +1,6 @@
 {
   "npmScope": "flight-workspace",
-  "affected": { "defaultBase": "master" },
+  "affected": { "defaultBase": "main" },
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": { "dependencies": "*", "devDependencies": "*" },
